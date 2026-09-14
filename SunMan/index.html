@@ -62,11 +62,11 @@
             <div><strong id="cd-minutes">--</strong><span>MINUTES</span></div>
             <div><strong id="cd-seconds">--</strong><span>SECONDS</span></div>
           </div>
-          <a href="#" class="primary-button" data-en="Join Our Celebration" data-kn="ನಮ್ಮ ಸಂಭ್ರಮಕ್ಕೆ ಸೇರಿ">
+          <span  class="primary-button" data-en="Join Our Celebration" data-kn="ನಮ್ಮ ಸಂಭ್ರಮಕ್ಕೆ ಸೇರಿ">
             Join Our Celebration <b>→</b>
-          </a>
+          </span>
         </div>
-        <div class="scroll-cue"><span></span>SCROLL TO EXPLORE</div>
+        <!-- <div class="scroll-cue"><span></span>SCROLL TO EXPLORE</div> -->
       </section>
 
       <section id="story" class="section story-section">
@@ -115,7 +115,7 @@
           </div>
           <div class="event-grid">
             <article class="event-card">
-              <div class="event-card-top"><span>01</span><div class="eyebrow">FRIDAY · 11 DECEMBER</div></div>
+              <div class="event-card-top"><span>01</span><div class="eyebrow">SUNDAY · 11 OCTOBER</div></div>
               <div class="event">
                 <div class="event-time">06:00<br><small>PM</small></div>
                 <div><h3 data-en="Haldi" data-kn="ಅರಿಶಿನ ಶಾಸ್ತ್ರ">Haldi</h3><p data-en="A cheerful evening of turmeric, music, and blessings." data-kn="ಅರಿಶಿನ, ಸಂಗೀತ ಮತ್ತು ಆಶೀರ್ವಾದಗಳ ಸಂಭ್ರಮದ ಸಂಜೆ.">A cheerful evening of turmeric, music, and blessings.</p></div>
@@ -126,7 +126,7 @@
               </div>
             </article>
             <article class="event-card featured-event">
-              <div class="event-card-top"><span>02</span><div class="eyebrow">SATURDAY · 12 DECEMBER</div></div>
+              <div class="event-card-top"><span>02</span><div class="eyebrow">MONDAY · 12 OCTOBER</div></div>
               <div class="event">
                 <div class="event-time">08:30<br><small>AM</small></div>
                 <div><h3 data-en="Muhurtham" data-kn="ಮುಹೂರ್ತ">Muhurtham</h3><p data-en="The sacred wedding ceremony begins." data-kn="ಪವಿತ್ರ ವಿವಾಹ ಸಮಾರಂಭ ಆರಂಭ.">The sacred wedding ceremony begins.</p></div>
@@ -145,15 +145,33 @@
           <div>
             <div class="eyebrow" data-en="The venue" data-kn="ಸ್ಥಳ">The venue</div>
             <h2 data-en="A place filled with blessings" data-kn="ಆಶೀರ್ವಾದಗಳಿಂದ ತುಂಬಿದ ಸ್ಥಳ">A place filled with blessings</h2>
-            <p class="venue-address">Sri Lakshmi Convention Hall<br />Jayanagar, Bengaluru<br />Karnataka, India</p>
+            <p class="venue-address">Tranquil Wedding Venue<br />38/1B, Laxmipura, Vaderahalli<br />Bannerughatta Road,<br/> near Sudarshan Vidya Mandir School, <br/>Bangalore - 560083</p>
             <p class="small-note" data-en="Please arrive 30 minutes before the ceremony." data-kn="ದಯವಿಟ್ಟು ಸಮಾರಂಭಕ್ಕೆ 30 ನಿಮಿಷ ಮುಂಚಿತವಾಗಿ ಆಗಮಿಸಿ.">Please arrive 30 minutes before the ceremony.</p>
-            <button id="directions-button" class="outline-button" data-en="Get Directions" data-kn="ದಾರಿ ತೋರಿಸಿ">Get Directions</button>
+            <a
+              target="_blank"
+              href="https://maps.google.com/?cid=17809952007046019094&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&amp;hl=en-GB&amp;source=embed"
+              aria-label="Open in Maps (opens in new tab)"
+              class="outline-button link-button"
+              data-en="Get Directions"
+              data-kn="ದಾರಿ ತೋರಿಸಿ">
+              <span class="link-button-container">
+                <span class="link-text" data-en="Get Directions" data-kn="ದಾರಿ ತೋರಿಸಿ">Get Directions</span>
+                <svg fill="currentColor" aria-hidden="true" viewBox="0 -960 960 960">
+                  <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120zm188-212-56-56 372-372H560v-80h280v280h-80v-144z"></path>
+                </svg>
+              </span>
+            </a>
           </div>
           <div class="card map-card">
             <div class="map-placeholder">
-              <span class="map-icon">⌖</span>
-              <strong>JAYANAGAR</strong>
-              <small>BENGALURU · KARNATAKA</small>
+              <iframe
+                title="Wedding venue map"
+                src="https://www.google.com/maps?q=Tranquil%20Wedding%20Venue%2C%2038%2F1B%20Laxmipura%2C%20Vaderahalli%2C%20Bannerughatta%20Road%2C%20Bangalore%20560083&z=14&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+                aria-label="Map showing the wedding venue">
+              </iframe>
               <div class="map-lines"></div>
             </div>
           </div>
@@ -165,10 +183,7 @@
           <div class="section-heading">
             <div class="eyebrow" data-en="A glimpse of our story" data-kn="ನಮ್ಮ ಕಥೆಯ ಒಂದು ನೋಟ">A glimpse of our story</div>
             <h2 data-en="Moments we cherish" data-kn="ನಾವು ಪ್ರೀತಿಸುವ ಕ್ಷಣಗಳು">Moments we cherish</h2>
-            <p data-en="Replace these images with your own memories."
-               data-kn="ಈ ಚಿತ್ರಗಳ ಬದಲಿಗೆ ನಿಮ್ಮ ನೆನಪುಗಳನ್ನು ಸೇರಿಸಿ.">
-              Replace these images with your own memories.
-            </p>
+            
           </div>
           <div class="gallery-grid">
             <button class="gallery-photo" data-image="images/photo-1.jpeg" aria-label="Open first gallery photo">
@@ -197,7 +212,7 @@
       <div class="ornament">✦ ❈ ✦</div>
       <h2>Sunil &amp; Manuja</h2>
       <p data-en="With love, laughter, and blessings." data-kn="ಪ್ರೀತಿ, ನಗು ಮತ್ತು ಆಶೀರ್ವಾದಗಳೊಂದಿಗೆ.">With love, laughter, and blessings.</p>
-      <small>12 · 12 · 2026</small>
+      <small>12 · 10 · 2026</small>
     </footer>
   </div>
 

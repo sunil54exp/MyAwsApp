@@ -62,6 +62,10 @@ button { cursor: pointer; }
 .primary-button b { color: var(--gold-light); font-size: 15px; }
 .outline-button { border: 1px solid var(--maroon); background: transparent; color: var(--maroon); margin-top: 15px; }
 .outline-button:hover { background: var(--maroon); color: #fff; }
+.link-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.link-button-container { display: inline-flex; align-items: center; justify-content: center; gap: 10px; }
+.link-button svg { width: 18px; height: 18px; flex-shrink: 0; }
+.link-text { display: inline-flex; align-items: center; }
 .scroll-cue { position: absolute; bottom: 25px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 10px; color: var(--gold); font: 9px Arial, sans-serif; letter-spacing: 2px; }
 .scroll-cue span { display: block; width: 1px; height: 30px; background: var(--gold); }
 
@@ -100,11 +104,13 @@ button { cursor: pointer; }
 .venue-address { font-size: 20px !important; line-height: 1.8 !important; }
 .small-note { font: 12px/1.6 Arial, sans-serif !important; color: #876e61 !important; }
 .card { padding: 9px; background: var(--paper); border: 1px solid var(--border); border-radius: 3px; box-shadow: 0 10px 30px rgba(88,57,35,.05); }
-.map-placeholder { min-height: 300px; display: grid; place-content: center; gap: 8px; text-align: center; color: var(--maroon); background: #e9ddca; border-radius: 2px; position: relative; overflow: hidden; }
+.map-card { padding: 0; }
+.map-placeholder { min-height: 300px; position: relative; overflow: hidden; background: #e9ddca; border-radius: 2px; }
+.map-placeholder iframe { width: 100%; min-height: 300px; border: 0; display: block; }
 .map-icon { font-size: 48px; }
 .map-placeholder strong { font: 600 12px Arial, sans-serif; letter-spacing: 3px; }
 .map-placeholder small { font: 10px Arial, sans-serif; letter-spacing: 1px; color: var(--muted); }
-.map-lines { position: absolute; inset: 0; opacity: .3; background-image: linear-gradient(30deg, transparent 48%, var(--gold) 49%, transparent 51%), linear-gradient(120deg, transparent 48%, var(--gold) 49%, transparent 51%); background-size: 70px 70px; }
+.map-lines { position: absolute; inset: 0; opacity: .3; pointer-events: none; background-image: linear-gradient(30deg, transparent 48%, var(--gold) 49%, transparent 51%), linear-gradient(120deg, transparent 48%, var(--gold) 49%, transparent 51%); background-size: 70px 70px; }
 
 .gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .gallery-photo { position: relative; height: 300px; padding: 0; overflow: hidden; border: 0; border-radius: 3px; background: #d9c2a2; text-align: left; }
