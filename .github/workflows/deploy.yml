@@ -58,7 +58,7 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           port: ${{ secrets.EC2_PORT }}
-          source: "./static-site/*" # Path to your static files folder in repo
+          source: "./SunMan/*" # Path to your static files folder in repo
           target: "/var/www/sunilmanu"
           strip_components: 1
 
