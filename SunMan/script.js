@@ -120,6 +120,7 @@
   function setupNavigation() {
     const menuButton = $("#menu-button");
     const mobileMenu = $("#mobile-menu");
+
     menuButton.addEventListener("click", () => {
       const isOpen = mobileMenu.classList.toggle("open");
       menuButton.setAttribute("aria-expanded", String(isOpen));
@@ -129,10 +130,6 @@
         mobileMenu.classList.remove("open");
         menuButton.setAttribute("aria-expanded", "false");
       });
-    });
-    $("#directions-button").addEventListener("click", () => {
-      const query = encodeURIComponent("Jayanagar Bengaluru Karnataka");
-      window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, "_blank", "noopener,noreferrer");
     });
   }
 
