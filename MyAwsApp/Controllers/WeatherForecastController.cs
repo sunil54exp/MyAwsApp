@@ -41,4 +41,12 @@ public class WeatherForecastController : ControllerBase
         return Ok(environmentName);
     }
 
+    [HttpGet("MyApi")]
+    public IActionResult GetMyApi()
+    {
+        string environmentName = _environment.EnvironmentName;
+
+        return Ok(environmentName);
+    }
+
 }
