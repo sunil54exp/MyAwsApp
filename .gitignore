@@ -1,0 +1,48 @@
+## Build outputs and dynamic binaries
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+## Visual Studio & IDE cache/user settings
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## App Settings Secrets & Environment Files
+appsettings.Development.json
+appsettings.Local.json
+*.env
+
+## Publish Outputs & Logs
+PublishScripts/
+*.pubxml.user
+*.log
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+# Custom publish folder
+publish/

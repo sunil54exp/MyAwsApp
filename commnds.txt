@@ -1,0 +1,12 @@
+scp -i "C:/Users/Sunil/Downloads/demo-ec2-keypair.pem" -r D:\Builds\SunMan5\* ubuntu@35.154.91.249:/tmp/sunman5
+
+
+ssh -i "demo-ec2-keypair.pem" ubuntu@35.154.91.249
+
+sudo mkdir -p /var/www/sunilmanu
+
+sudo mv /tmp/sunman5/* /var/www/sunilmanu/
+
+
+sudo chown -R www-data:www-data /var/www/sunilmanu
+sudo chmod -R 755 /var/www/sunilmanu
