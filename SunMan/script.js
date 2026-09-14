@@ -3,7 +3,7 @@
 
   // Replace this with the couple's WhatsApp number, including country code.
   const WHATSAPP_NUMBER = "919999999999";
-  const weddingDate = new Date("2026-12-12T08:30:00+05:30").getTime();
+  const weddingDate = new Date("2026-10-12T08:30:00+05:30").getTime();
 
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => document.querySelectorAll(selector);
