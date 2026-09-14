@@ -46,3 +46,4 @@ Thumbs.db
 
 # Custom publish folder
 publish/
+demo-ec2-keypair.pem
